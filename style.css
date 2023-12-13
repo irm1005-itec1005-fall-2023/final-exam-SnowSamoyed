@@ -455,13 +455,16 @@ This responsive works in chrome console preview (toggle device bar) but not resi
 
   /* header with some links///////////////////////////////////////// */
   .header-container img {
-    margin: 1rem 0 7rem 2rem;
+    margin: 1rem 0 7rem 1rem;
    }
   .header-container button{
-    margin: 1rem 2rem 7rem 0;
+    margin: 1rem 1rem 7rem 0;
   }
 
   /* hero with title/////////////////////////////////////////////////// */
+  .hero{
+    width: 90vw;
+  }
   .hero h1{
     text-align: center;
   }
