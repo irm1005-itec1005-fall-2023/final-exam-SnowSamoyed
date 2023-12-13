@@ -59,7 +59,7 @@ body {
  */
 
 .page-container {
-  max-width: 82vw;
+  max-width: 80vw;
   margin: 0 auto;
   padding: 0 1.0rem;
 
@@ -303,6 +303,7 @@ my work gallery -------------------------------------------
 
 .my-work-gallery{
   display: grid;
+  width: 80vw;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 2rem;
@@ -362,7 +363,7 @@ Contact information/////////////////////////////////////////////////////////////
 
 .contact{
   background-color: rgb(184, 151, 215);
-
+  width: 80vw;
   padding: 4rem;
   border-radius: 1rem;
   margin: 0 0 10rem 0;
@@ -396,7 +397,7 @@ footer{
 }
 
 .solid-divider {
-  width: 82vw;
+  width: 80vw;
   margin: 0 0 2rem 0;
 }
 
@@ -406,7 +407,7 @@ footer{
   justify-content: space-between;
   align-items: center;
 
-  width: 82vw;
+  width: 80vw;
   color: gray;
 }
 
