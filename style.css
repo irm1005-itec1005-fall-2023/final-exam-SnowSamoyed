@@ -239,6 +239,7 @@ About //////////////////////////////////////////////////////////////////////////
 
 .self-about {
   display: flex;
+  width: 80vw;
   align-items:center;
   /* justify-content: space-between; */
   gap: 2rem;
