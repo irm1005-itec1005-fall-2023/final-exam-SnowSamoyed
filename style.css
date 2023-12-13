@@ -166,7 +166,15 @@ body {
 
  .show-offs div:hover {
   box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-}
+  }
+
+
+  .show-offs p {
+    align-self: flex-end;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
 
  .show-offs-1 {
   grid-area: 1 / 1 / 3 / 3; 
@@ -177,14 +185,7 @@ body {
   padding: 1rem;
 
   display: flex;
-  p {
-    align-self: flex-end;
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-  }
  }
-
 
 
  .show-offs-2 {
@@ -194,12 +195,6 @@ body {
   padding: 1rem;
 
   display: flex;
-  p {
-    align-self: flex-end;
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-  }
  }
 
  .show-offs-3 {
@@ -209,12 +204,6 @@ body {
   padding: 1rem;
 
   display: flex;
-  p {
-    align-self: flex-end;
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-  }
  }
 
  .show-offs-4 {
@@ -224,12 +213,6 @@ body {
   padding: 1rem;
 
   display: flex;
-  p {
-    align-self: flex-end;
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-  }
  }
 
  .show-offs-5{
@@ -239,12 +222,6 @@ body {
   padding: 1rem;
 
   display: flex;
-  p {
-    align-self: flex-end;
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-  }
  }
 
  .show-offs-6{
@@ -254,12 +231,6 @@ body {
   padding: 1rem;
 
   display: flex;
-  p {
-    align-self: flex-end;
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-  }
  }
 
 /* 
@@ -322,7 +293,6 @@ My work/////////////////////////////////////////////////////////////////////////
 
 .my-work h2{
   font-size: 4rem;
-  flex-grow: none;
   max-width: 20rem;
   margin: 0 0 3rem 0;
 }
@@ -447,7 +417,7 @@ footer img{
 }
 
 
-@media (min-width:480px)  {
+@media (max-width:480px)  {
   /* the entire page */
   .page-container{
     width: 90vw;
@@ -504,12 +474,14 @@ footer img{
   /* my work gallery///////////////// ////////////////////////////////*/
   .my-work-gallery{
     display: flex;
+    width: 90vw;
     flex-direction: column;
     margin: 0 0 5rem 0;
   }
 
   /* contact info ///////////////////////////////////////////////////////// */
   .contact{
+    width: 90vw;
     padding: 2rem;
   }
 
