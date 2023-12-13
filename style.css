@@ -420,7 +420,10 @@ footer img{
 reponsive design //////////////////////////////////////////////////////////////
  */
 
-/* For some reasons this dosen't work when upload to github */
+/* 
+This responsive works in chrome console preview (toggle device bar) but not resizing browser window 
+*/
+
 @media (max-width:480px)  {
   /* the entire page */
   .page-container{
